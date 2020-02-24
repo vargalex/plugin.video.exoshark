@@ -1,0 +1,910 @@
+msgid ""
+msgstr ""
+
+msgctxt "#32001"
+msgid "Filmek"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Sorozatok"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Kedvenc filmek"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Kedvenc sorozatok"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Legújabb filmek"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Legújabb epizódok"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Csatornák"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Eszközök"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Letöltések"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Keresés"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Műfajok"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Évszámok"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Színészek"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Nyelvek"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Korhatár-besorolások"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Televíziótársaságok"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Népszerű"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Legnépszerűbb"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Legtöbb szavazatot kapott"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Legnagyobb bevételek"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Oscar-nyertesek"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Jelenleg a mozikban"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Magasan értékelt"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Ma vetítik"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Visszatérő sorozatok"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Új sorozatok"
+msgstr ""
+
+msgctxt "#32027"
+msgid "TV naptár"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Keresés színészre"
+msgstr ""
+
+msgctxt "#32029"
+msgid "Színészek (Filmek)"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Színészek (Sorozatok)"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Böngészés"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Gyűjtemény"
+msgstr ""
+
+msgctxt "#32033"
+msgid "Figyelőlista"
+msgstr ""
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Kiemelt"
+msgstr ""
+
+msgctxt "#32036"
+msgid "Előzmények"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Előrehaladás"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Epizódok"
+msgstr ""
+
+msgctxt "#32039"
+msgid "Filmes listák"
+msgstr ""
+
+msgctxt "#32040"
+msgid "Sorozat listák"
+msgstr ""
+
+msgctxt "#32041"
+msgid "Epizódlisták"
+msgstr ""
+
+msgctxt "#32042"
+msgid "Nem található Trakt vagy IMDb fiók."
+msgstr ""
+
+msgctxt "#32043"
+msgid "[B]BEÁLLÍTÁSOK[/B] : Általános"
+msgstr ""
+
+msgctxt "#32044"
+msgid "[B]BEÁLLÍTÁSOK[/B] : Fiókok"
+msgstr ""
+
+msgctxt "#32045"
+msgid "[B]BEÁLLÍTÁSOK[/B] : Lejátszás"
+msgstr ""
+
+msgctxt "#32046"
+msgid "[B]BEÁLLÍTÁSOK[/B] : Feliratok"
+msgstr ""
+
+msgctxt "#32047"
+msgid "[B]BEÁLLÍTÁSOK[/B] : Kiszolgálók"
+msgstr ""
+
+msgctxt "#32048"
+msgid "[B]EXOSHARK[/B] : Letöltések"
+msgstr ""
+
+msgctxt "#32049"
+msgid "[B]EXOSHARK[/B] : Nézet"
+msgstr ""
+
+msgctxt "#32050"
+msgid "[B]EXOSHARK[/B] : Kiszolgálók megtisztítása..."
+msgstr ""
+
+msgctxt "#32051"
+msgid "[B]EXOSHARK[/B] : Metaadatok megtisztítása..."
+msgstr ""
+
+msgctxt "#32052"
+msgid "[B]EXOSHARK[/B] : Gyorsítótár megtisztítása..."
+msgstr ""
+
+msgctxt "#32053"
+msgid "[I]Következő oldal[/I]"
+msgstr ""
+
+msgctxt "#32054"
+msgid "Évadok"
+msgstr ""
+
+msgctxt "#32055"
+msgid "Évad"
+msgstr ""
+
+msgctxt "#32056"
+msgid "Biztos benne?"
+msgstr ""
+
+msgctxt "#32057"
+msgid "Folyamat befejeződött"
+msgstr ""
+
+msgctxt "#32058"
+msgid "Ez lelassítja a működést, amíg a tartalmak újra bekerülnek a gyorsítótárba!"
+msgstr ""
+
+msgctxt "#32059"
+msgid "A NÉZET MENTÉSÉHEZ KATTINTSON IDE"
+msgstr ""
+
+msgctxt "#32060"
+msgid "Január|Február|Március|Április|Május|Június|Július|Augusztus|Szeptember|Október|November|December"
+msgstr ""
+
+msgctxt "#32061"
+msgid "Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap"
+msgstr ""
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Egyéb lejátszóval..."
+msgstr ""
+
+msgctxt "#32064"
+msgid "Automatikus lejátszás"
+msgstr ""
+
+msgctxt "#32065"
+msgid "Lejátszási sorba tesz"
+msgstr ""
+
+msgctxt "#32066"
+msgid "Megnézettként megjelöl (ExoShark)"
+msgstr ""
+
+msgctxt "#32067"
+msgid "Nem látottként megjelöl (ExoShark)"
+msgstr ""
+
+msgctxt "#32068"
+msgid "Megnézettként megjelöl (Trakt)"
+msgstr ""
+
+msgctxt "#32069"
+msgid "Nem látottként megjelöl (Trakt)"
+msgstr ""
+
+msgctxt "#32070"
+msgid "Trakt Kezelő"
+msgstr ""
+
+msgctxt "#32071"
+msgid "Évadok megtekintése"
+msgstr ""
+
+msgctxt "#32072"
+msgid "Frissítés"
+msgstr ""
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Engedélyezés"
+msgstr ""
+
+msgctxt "#32074"
+msgid "[B]SEGÍTSÉG[/B]"
+msgstr ""
+
+msgctxt "#32301"
+msgid "Engedélyezve"
+msgstr ""
+
+msgctxt "#32302"
+msgid "Letiltva"
+msgstr ""
+
+msgctxt "#32303"
+msgid "Felhasználó"
+msgstr ""
+
+msgctxt "#32304"
+msgid "E-mail cím"
+msgstr ""
+
+msgctxt "#32305"
+msgid "ID"
+msgstr ""
+
+msgctxt "#32306"
+msgid "Engedélyezés..."
+msgstr ""
+
+msgctxt "#32307"
+msgid "Jelszó"
+msgstr ""
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr ""
+
+msgctxt "#32309"
+msgid "API"
+msgstr ""
+
+msgctxt "#32310"
+msgid "Általános"
+msgstr ""
+
+msgctxt "#32311"
+msgid "Megjelenés"
+msgstr ""
+
+msgctxt "#32312"
+msgid "Kiszolgálók időtúllépése"
+msgstr ""
+
+msgctxt "#32313"
+msgid "Tartalmak"
+msgstr ""
+
+msgctxt "#32314"
+msgid "Helyi"
+msgstr ""
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr ""
+
+msgctxt "#32316"
+msgid "Info nyelve"
+msgstr ""
+
+msgctxt "#32317"
+msgid "Sorozatévadok szűkítése"
+msgstr ""
+
+msgctxt "#32318"
+msgid "Fanart engedélyezése"
+msgstr ""
+
+msgctxt "#32319"
+msgid "Menü"
+msgstr ""
+
+msgctxt "#32320"
+msgid "Legújabb filmek"
+msgstr ""
+
+msgctxt "#32321"
+msgid "Kiemelt"
+msgstr ""
+
+msgctxt "#32322"
+msgid "Népszerű"
+msgstr ""
+
+msgctxt "#32323"
+msgid "Legnépszerűbb"
+msgstr ""
+
+msgctxt "#32324"
+msgid "Jelenleg a mozikban"
+msgstr ""
+
+msgctxt "#32325"
+msgid "Legújabb epizódok"
+msgstr ""
+
+msgctxt "#32326"
+msgid "Epizódok"
+msgstr ""
+
+msgctxt "#32327"
+msgid "Trakt Előrehaladás"
+msgstr ""
+
+msgctxt "#32328"
+msgid "Trakt Epizódok"
+msgstr ""
+
+msgctxt "#32329"
+msgid "Listáim"
+msgstr ""
+
+msgctxt "#32330"
+msgid "Lejátszás"
+msgstr ""
+
+msgctxt "#32331"
+msgid "Tárhely kiválasztó"
+msgstr ""
+
+msgctxt "#32332"
+msgid "Ablak"
+msgstr ""
+
+msgctxt "#32333"
+msgid "Mappa"
+msgstr ""
+
+msgctxt "#32334"
+msgid "Automatikus lejátszás"
+msgstr ""
+
+msgctxt "#32335"
+msgid "Folyamat párbeszédablak"
+msgstr ""
+
+msgctxt "#32336"
+msgid "Előtérben"
+msgstr ""
+
+msgctxt "#32337"
+msgid "Háttérben"
+msgstr ""
+
+msgctxt "#32338"
+msgid "Tárhely szűrők"
+msgstr ""
+
+msgctxt "#32339"
+msgid "Legjobb minőség"
+msgstr ""
+
+msgctxt "#32340"
+msgid "Kényszerített SD lejátszás Automatikus lejátszás módban"
+msgstr ""
+
+msgctxt "#32341"
+msgid "Tárhelyek captchaval"
+msgstr ""
+
+msgctxt "#32342"
+msgid "Rendezés kiszolgálók szerint"
+msgstr ""
+
+msgctxt "#32343"
+msgid "Lejátszás elindulásakor..."
+msgstr ""
+
+msgctxt "#32344"
+msgid "Lejátszás folytatása"
+msgstr ""
+
+msgctxt "#32345"
+msgid "Kiszolgálók"
+msgstr ""
+
+msgctxt "#32346"
+msgid "Fiókok"
+msgstr ""
+
+msgctxt "#32347"
+msgid "Letöltések"
+msgstr ""
+
+msgctxt "#32348"
+msgid "Letöltések engedélyezése"
+msgstr ""
+
+msgctxt "#32349"
+msgid "Filmek"
+msgstr ""
+
+msgctxt "#32350"
+msgid "Sorozatok"
+msgstr ""
+
+msgctxt "#32351"
+msgid "A letöltések alapértelmezés szerint le vannak tiltva."
+msgstr ""
+
+msgctxt "#32352"
+msgid "Állítsd be a letöltési mappáidat, annak érdekében hogy engedélyezd őket."
+msgstr ""
+
+msgctxt "#32353"
+msgid "Feliratok"
+msgstr ""
+
+msgctxt "#32354"
+msgid "Feliratok engedélyezése"
+msgstr ""
+
+msgctxt "#32355"
+msgid "Feliratok konvertálása UTF-8 formátumba"
+msgstr ""
+
+msgctxt "#32356"
+msgid "Elsődleges nyelv"
+msgstr ""
+
+msgctxt "#32357"
+msgid "Másodlagos nyelv"
+msgstr ""
+
+msgctxt "#32358"
+msgid "A feliratok egyes esetekben nem elérhetőek vagy nincsenek szinkronban."
+msgstr ""
+
+msgctxt "#32359"
+msgid "Ebben az esetben használj saját feliratokat."
+msgstr ""
+
+msgctxt "#32360"
+msgid "Kiszolgálók nyelve"
+msgstr ""
+
+msgctxt "#32363"
+msgid "HEVC kódolású források"
+msgstr ""
+
+msgctxt "#32364"
+msgid "CAM minőségű források"
+msgstr ""
+
+msgctxt "#32372"
+msgid "A lejátszás befejezésekor..."
+msgstr ""
+
+msgctxt "#32373"
+msgid "Kényszerített találatlista-frissítés"
+msgstr ""
+
+msgctxt "#32401"
+msgid "Nincs elérhető adatfolyam"
+msgstr ""
+
+msgctxt "#32402"
+msgid "ExoSharkon kívüli lejátszás nem engedélyezett"
+msgstr ""
+
+msgctxt "#32403"
+msgid "Letöltés"
+msgstr ""
+
+msgctxt "#32404"
+msgid "Eltelt idő: %s másodperc"
+msgstr ""
+
+msgctxt "#32405"
+msgid "%s másodperc"
+msgstr ""
+
+msgctxt "#32406"
+msgid "Hátralévő kiszolgálók: %s"
+msgstr ""
+
+msgctxt "#32407"
+msgid "Biztos benne?"
+msgstr ""
+
+msgctxt "#32408"
+msgid "Folyamat befejeződött"
+msgstr ""
+
+msgctxt "#32501"
+msgid "Lejátszás az elejéről"
+msgstr ""
+
+msgctxt "#32502"
+msgid "Folytatás innen %s"
+msgstr ""
+
+msgctxt "#32503"
+msgid "Folytatás"
+msgstr ""
+
+msgctxt "#32511"
+msgid "Egy fiók már meg van adva."
+msgstr ""
+
+msgctxt "#32512"
+msgid "Szeretné visszaállítani?"
+msgstr ""
+
+msgctxt "#32513"
+msgid "1) Látogassa meg : [COLOR skyblue]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32514"
+msgid "2) Amikor kéri írja be ezt : [COLOR skyblue]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32515"
+msgid "Trakt Kezelő"
+msgstr ""
+
+msgctxt "#32516"
+msgid "Hozzáadás a [B]Gyűjteményhez[/B]"
+msgstr ""
+
+msgctxt "#32517"
+msgid "Eltávolítás a [B]Gyűjteményből[/B]"
+msgstr ""
+
+msgctxt "#32518"
+msgid "Hozzáadás a [B]Figyelőlistához[/B]"
+msgstr ""
+
+msgctxt "#32519"
+msgid "Eltávolítás a [B]Figyelőlistából[/B]"
+msgstr ""
+
+msgctxt "#32520"
+msgid "Hozzáadás [B]új Listához[/B]"
+msgstr ""
+
+msgctxt "#32521"
+msgid "Hozzáadás ehhez [B]%s[/B]"
+msgstr ""
+
+msgctxt "#32522"
+msgid "Eltávolítás innen [B]%s[/B]"
+msgstr ""
+
+msgctxt "#32531"
+msgid "Egy fiók már meg van adva."
+msgstr ""
+
+msgctxt "#32532"
+msgid "Szeretné visszaállítani?"
+msgstr ""
+
+msgctxt "#32533"
+msgid "1) Látogassa meg : [COLOR skyblue]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32534"
+msgid "2) Amikor kéri írja be ezt : [COLOR skyblue]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32535"
+msgid "Véletlenszerű lejátszás"
+msgstr ""
+
+msgctxt "#32536"
+msgid "Lejátszás"
+msgstr ""
+
+msgctxt "#32537"
+msgid "Nem található lejátszható elem"
+msgstr ""
+
+msgctxt "#32538"
+msgid "DEBRID SZOLGÁLTATÁS"
+msgstr ""
+
+msgctxt "#32539"
+msgid "Debrid szolgáltatások konfigurálása az URLResolver / ResolveURL beállíásokban"
+msgstr ""
+
+msgctxt "#32540"
+msgid "URLResolver / ResolveURL beállítások"
+msgstr ""
+
+msgctxt "#32541"
+msgid "Médiatár"
+msgstr ""
+
+msgctxt "#32542"
+msgid "Az ExoShark mappák bekerülnek a médiatárba, ha hozzá vannak adva a forrásokhoz."
+msgstr ""
+
+msgctxt "#32543"
+msgid "Filmek"
+msgstr ""
+
+msgctxt "#32544"
+msgid "Sorozatok"
+msgstr ""
+
+msgctxt "#32545"
+msgid "Sorozatok automatikus frissítése"
+msgstr ""
+
+msgctxt "#32546"
+msgid "Értesítések megjelenítése frissítés közben"
+msgstr ""
+
+msgctxt "#32547"
+msgid "Médiatár frissítése tartalom hozzáadása után"
+msgstr ""
+
+msgctxt "#32548"
+msgid "Duplikált tartalom létrehozásának elkerülése"
+msgstr ""
+
+msgctxt "#32549"
+msgid "Film leellenőrzése hozzáadás előtt"
+msgstr ""
+
+msgctxt "#32550"
+msgid "Sorozat első epizódjának leellenőrzése hozzáadás előtt"
+msgstr ""
+
+msgctxt "#32551"
+msgid "Hozzáadás a Médiatárhoz"
+msgstr ""
+
+msgctxt "#32552"
+msgid "Médiatárhoz adás..."
+msgstr ""
+
+msgctxt "#32553"
+msgid "Sorozatok frissítése..."
+msgstr ""
+
+msgctxt "#32554"
+msgid "A folyamat befejeződött"
+msgstr ""
+
+msgctxt "#32555"
+msgid "Biztos benne?"
+msgstr ""
+
+msgctxt "#32556"
+msgid "[B]EXOSHARK[/B] : Médiatár"
+msgstr ""
+
+msgctxt "#32557"
+msgid "[B]MÉDIATÁR[/B] : Beállítások"
+msgstr ""
+
+msgctxt "#32558"
+msgid "[B]EXOSHARK[/B] : Médiatár frissítése..."
+msgstr ""
+
+msgctxt "#32559"
+msgid "[B]EXOSHARK[/B] : Filmek mappa..."
+msgstr ""
+
+msgctxt "#32560"
+msgid "[B]EXOSHARK[/B] : Sorozatok mappa..."
+msgstr ""
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Gyűjtemény importálása..."
+msgstr ""
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Figyelőlista importálása..."
+msgstr ""
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : TV Gyűjtemény importálása..."
+msgstr ""
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : TV figyelőlista importálása..."
+msgstr ""
+
+msgctxt "#32565"
+msgid "Megjelenési időpont nélküli epizódok importálása"
+msgstr ""
+
+msgctxt "#32570"
+msgid "Még nem vetített epizódok megjelenítése"
+msgstr ""
+
+msgctxt "#32571"
+msgid "Moziban vetített filmek elrejtése"
+msgstr ""
+
+msgctxt "#32572"
+msgid "Védett link! Kérlek írd be a fiókadatokat a beállításokban."
+msgstr ""
+
+msgctxt "#32580"
+msgid "TV-filmek"
+msgstr ""
+
+msgctxt "#32581"
+msgid "Eredmények maximális száma"
+msgstr ""
+
+msgctxt "#32582"
+msgid "A saját API kulcs gyorsabb API válaszokat eredményez."
+msgstr ""
+
+msgctxt "#32583"
+msgid "Légy te is VIP tag, sok előnnyel jár: https://fanart.tv/vip"
+msgstr ""
+
+msgctxt "#32584"
+msgid "Trakt Előrehaladás rendezése"
+msgstr ""
+
+msgctxt "#32585"
+msgid "Legutóbb megjelent epizód szerint"
+msgstr ""
+
+msgctxt "#32586"
+msgid "Legutóbb megtekintett sorozat szerint"
+msgstr ""
+
+msgctxt "#32587"
+msgid "Források extra információinak megjelenítése"
+msgstr ""
+
+msgctxt "#32588"
+msgid "Prémium források színe"
+msgstr ""
+
+msgctxt "#32589"
+msgid "Kék"
+msgstr ""
+
+msgctxt "#32590"
+msgid "Vörös"
+msgstr ""
+
+msgctxt "#32591"
+msgid "Sárga"
+msgstr ""
+
+msgctxt "#32592"
+msgid "Sötét rózsaszín"
+msgstr ""
+
+msgctxt "#32593"
+msgid "Ciánkék"
+msgstr ""
+
+msgctxt "#32594"
+msgid "Zöld"
+msgstr ""
+
+msgctxt "#32595"
+msgid "Arany"
+msgstr ""
+
+msgctxt "#32596"
+msgid "Magenta"
+msgstr ""
+
+msgctxt "#32597"
+msgid "Sárgás zöld"
+msgstr ""
+
+msgctxt "#32598"
+msgid "Alap"
+msgstr ""
+
+msgctxt "#32599"
+msgid "Műfajinformációk lekérése a Traktról"
+msgstr ""
+
+msgctxt "#32600"
+msgid "Kiszolgálók előkészítése"
+msgstr ""
+
+msgctxt "#32601"
+msgid "Összes"
+msgstr ""
+
+msgctxt "#32602"
+msgid "Várakozás erre"
+msgstr ""
+
+msgctxt "#32603"
+msgid "Új keresés..."
+msgstr ""
+
+msgctxt "#32604"
+msgid "[B]EXOSHARK[/B] : Keresési előzmények törlése..."
+msgstr ""
+
+msgctxt "#32605"
+msgid "Keresési előzmények törlése"
+msgstr ""
+
+msgctxt "#32606"
+msgid "Prémium"
+msgstr ""
+
+msgctxt "#32607"
+msgid "Normál"
+msgstr ""

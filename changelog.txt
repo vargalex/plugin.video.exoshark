@@ -1,0 +1,262 @@
+﻿[B]1.4.0[/B]
+- Magyar kiszolgáló frissítések
+- NETMOZI kiszolágló eltávolítva
+- Angol kiszolgáló frissítések
+- Cached kiszolgálók (endegélyezhető a beállításokban - Real-Debrid vagy Premiumize fiók szükséges)
+- Jelenleg a mozikban szekció javítva
+- Új szekciók a Filmekben: Legjobbra értékelt, Új lemezes megjelenések
+- Új szekció a Sorozatokban: Legjobbra értékelt
+- Az 'IMDb Infó' információs ablak javítva
+
+[B]1.3.3[/B]
+NEM HIVATALOS VERZIÓ
+
+[B]1.3.2[/B]
+NEM HIVATALOS VERZIÓ
+
+[B]1.3.1[/B]
+- FILMGO kiszolgáló frissítés
+- FILMTORNADO kiszolgáló frissítés
+- HDFILMEK kiszolgáló frissítés
+- NONSTOPMOZI kiszolgáló frissítés
+- SRTV kiszolgáló frissítés
+- Letöltés javítva
+- Lehetőség van kiszolgálók importálására (elérhető a beállításokban)
+(A zip fájl elnevezésének a következőképpen kell kinéznie: es_providers_hu.zip)
+- A találati statisztikák lementhetők a hibanaplóba (endegélyezhető a beállításokban)
+- Új angol kiszolgálók (CUTEMOVIE, MOVIESCO, PANDAMOVIE, RLSSCN, TIMEWATCH)
+- Angol kiszolgáló frissítések (BEETV, CARTOONHD, DAREWATCH, FILEPURSUIT,
+FILMXY, FULL4MOVIES, HASTI, IOMOVIE, MOVIE4UCH, MOVIEWATCHER, MYVIDEOLINK,
+NINEMOVIES, OPENLOADMOVIES, PROJECTFREE, SERIESONLINE, SOLARMOVIE, VMOOVE)
+- Új német kiszolgálók (CINEMATRIX, CINEMAXX, HDKINO, MOVIE4K-LT)
+- Német kiszolgáló frissítések (FILMPALAST, FOXX, HDFILME, MOOVIE, MOVIE2K-SH, MOVIE4K, MOVIETOWN, PROXER)
+
+[B]1.3.0[/B]
+- Visszakerült a MOZICSILLAG kiszolgáló a kiegészítőbe
+- FILMEZZ kiszolgáló frissítés
+- MOOVIECC kiszolgáló frissítés
+- Angol kiszolgáló frissítések (CINEMAMEGA, DAREWATCH, FHDMOVIE, HDMEGA, MYVIDEOLINK, TVRELEASE)
+- Új német kiszolgálók (KINOGER, MOOVIE, MOOVIE-GG, MOVIE2K-SH, SZENE-STREAMZ, TMOVIE, VODHD)
+- Német kiszolgáló frissítések (BS, FOXX, HDFILME, HDSTREAMS, HORRORKINO, ILOAD,
+KINOKING, KINOW, MOVIE4K, MOVIETOWN, NETZKINO, SERIENSTREAM, STREAMIT, TATA, VIEW4U)
+
+[B]1.2.9[/B]
+- HDFILMEK kiszolgáló frissítés
+- ONLINEPONT kiszolgáló frissítés
+- Az 'IMDb Infó' információs ablak javítva
+- Angol kiszolgáló frissítések (2DDL, ALLRLS, DDLVALLEY, DIRECTDL, DLTUBE, FHDMOVIE, FILEPURSUIT, FURK,
+IWANNAWATCH, MOVIE4KIS, MOVIE4KORG, MYVIDEOLINK, PHAZEDDL, SCENERLS, SERIESONLINE, VUMOO, WSONLINE, YMOVIES)
+
+[B]1.2.8[/B]
+- Hibajavítás: A forráskeresésnél a folyamat párbeszédablakon megjelentek a találatok,
+de a keresés végeztével 'Nincs elérhető adatfolyam' értesítés jelent meg. Javítva.
+- A környezeti menü előhívásával az IMDb Infóra kattintva megtekinthetők a legfontosabb IMDb-s információk
+- Új angol kiszolgálók (COOLMOVIEZONE, MYVIDEOLINK, VIDICS)
+- Angol kiszolgáló frissítések (FHDMOVIE, FILEPURSUIT, MOVIE4KORG)
+
+[B]1.2.7[/B]
+- MOZICLUB kiszolgáló frissítés
+- NETMOZI kiszolgáló frissítés
+- Választható linkfeloldó (URLResolver vagy ResolveURL - módosítható a beállításokban)
+- Trakt Könyvjelzők (lejátszási folyamat szinkronizálása a Trakttal - endegélyezhető a beállításokban)
+- Médiatárba történő importálás késleltetése (endegélyezhető a beállításokban)
+- A környezeti menü előhívásával a Megjelenésekre kattintva megtekinthetőek a külföldi DVD, VOD megjelenések
+- Új menüpont a Kedvenc sorozatok menüben: Trakt on Deck (a legutolsó 10 félbehagyott sorozatrész listázódik)
+- Kisebb hibajavítások
+- Új angol kiszolgálók (CINEMAMEGA, FULL4MOVIES, GEEKTV, HDMEGA, IWANNAWATCH, MOVIEWORLD, SCENERLS, VEXMOVIES, WSONLINE)
+- Angol kiszolgáló frissítések (FURK, FILEPURSUIT, PLOCKER, TVBOX, VUMOO, XMOVIES, YMOVIES)
+
+[B]1.2.6[/B]
+- A környezeti menü előhívásával a filmhez/sorozathoz hasonló tartalom kereshető
+- Forrásbetöltés korlátozása - a beállított kiszolgáló limit után betöltődnek a források (módosítható a beállításokban)
+- Speciális epizódok megjelenítése (bekapcsolható a beállításokban)
+- Csak prémium források megjelenítése opció (bekapcsolható a beállításokban)
+- Trakt Gyűjtemény automatikus szinkronizálása (bekapcsolható a beállításokban)
+- Kisebb hibajavítások
+- Új angol kiszolgálók (MOVIESERIESTV, MOVIEWATCHER)
+- FURK kiszolgáló (fejlesztés alatt)
+- Angol kiszolgáló frissítések (BEETV, CARTOONHD, CMOVIES, DLTUBE, EXTRAMOVIES, FLIXANITY, MOVIE4KIS, WATCHSERIES)
+Megjegyzés: A FURK kiszolgáló használatához regisztráció szükséges.
+
+[B]1.2.5[/B]
+- HDFILMEK kiszolgáló frissítés
+- MOZICSILLAG kiszolgáló eltávolítva (oka: a linkek a HDFILMEK kiszolgáló oldalára vannak átírányítva)
+- Új angol kiszolgálók (DLTUBE, EXTRAMOVIES, NINEMOVIES, SOAPTV)
+- Angol kiszolgáló frissítések (ALLRLS, CHILLAX, RELEASEBB, SERIESCR, SERIESCRAVINGS, WATCHFREE)
+Megjegyzés: A CHILLAX kiszolgáló használatához regisztráció szükséges.
+
+[B]1.2.4[/B]
+- MOZICLUB kiszolgáló frissítés
+- Új angol kiszolgálók (BOB, DAREWATCH, FHDMOVIE, FILMXY, IOMOVIES, VIOOZ)
+- Angol kiszolgáló frissítések (AFDAH, ALLRLS, BESTMOVIEZ, CMOVIES,
+MOVIEGO, POPCORN, SERIESCRAVINGS, SOLARMOVIE, VODLY, WATCH32, XMOVIES)
+
+[B]1.2.3[/B]
+- Új kiszolgáló (FILMEZEK)
+- FILMEZZ kiszolgáló frissítés
+- FILMGO kiszolgáló frissítés
+- SOROZATKATALOGUS kiszolgáló frissítés
+- IMDb listák listázása javítva
+- Új angol kiszolgálók (BEETV, CHILLAX, FILEPURSUIT, FILMBAROON, SERIESONLINE, SHOWBOX, VMOOVE, VUMOO)
+- Angol kiszolgáló frissítések (ALLRLS, CARTOONHD, CMOVIES, FLIXANITY, HASTI, MOVIE4KIS,
+MOVIESGOLD, PRIMEWIRE, SERIESCRAVINGS, SOLARMOVIE, WATCHSERIES, XWATCHSERIES)
+
+[B]1.2.2[/B]
+- Új kiszolgáló (MOOVIECC)
+- FILMEZZ kiszolgáló frissítés
+- A feliratkereső funkció nem működött egyes eszközökön - javítva
+
+[B]1.2.1[/B]
+- Új kiszolgáló (FILMEZZ)
+
+[B]1.2.0[/B]
+- FILMTORNADO kiszolgáló frissítés
+- HDFILMEK kiszolgáló frissítés
+- Lehetőség van feliratkeresésre az epizódrészeknél
+- Új angol kiszolgálók (HASTI, HDMOVIESDOWN)
+- Angol kiszolgáló frissítések (123NETFLIX, ALLRLS, MYWATCHSERIES, PLOCKER, PUTLOCKER, POPCORN)
+
+[B]1.1.9[/B]
+- Új kiszolgáló (ONFILMEK)
+- ONLINEPONT kiszolgáló frissítés
+- Covenant 1.1.29-1.1.30 és Covenant Module frissítések:
+--- Új angol kiszolgálók (ULTRAHD, XMOVIES)
+--- Angol kiszolgáló frissítések (ALLRLS, DDLVALLEY, FLIXANITY, FMOVIED6, OPENLOADMOVIES, POPCORN, PUTLOCKER, RELEASEBB)
+
+[B]1.1.8[/B]
+- Új kiszolgáló (SRTV)
+- Új kiszolgáló (MOVSTREAM)
+- ONMOVIESFREE kiszolgáló frissítés
+- Új ikont kapott a kiegészítő
+- Változtatható a szinkron jelzésének színe (módosítható a beállításokban)
+- Az Eszközök menüpontban a Változáslistára kattintva megjelenik a kiegészítő teljes változáslitája
+- Hibajavítás: hibaüzenet megjelenítése, ha nincs elérhető stream
+- Kisebb hibajavítások
+- Covenant 1.1.26-1.1.28 és Covenant Module frissítések:
+--- Módosításra kerültek a folyamatjelzőn megjelenő információk (már a prémium forrásokat is külön jelzi)
+--- Új angol és francia kiszolgálók
+--- Kiszolgáló frissítések (angol, német és lengyel kiszolgálók)
+--- Nem működő kiszolgálók törölve
+
+[B]1.1.7[/B]
+- Új kiszolgáló (ONMOVIESFREE)
+- Kisebb hibajavítások
+- Covenant 1.1.25 frissítések:
+--- A keresések eltárolódnak
+--- Új angol kiszolgálók (MOVIE4K, SAVAZE)
+--- Kiszolgáló frissítések (angol és német kiszolgálók)
+
+[B]1.1.6[/B]
+- FILMTORNADO kiszolgáló frissítés
+- HDFILMEK kiszolgáló frissítés
+- Covenant 1.1.24 frissítések:
+--- Csökkent a kiszolgálók betöltésének ideje
+--- A háttérben futó folyamatjelzőn is több információ jelenik meg a források betöltése közben
+--- Új angol (MZMOVIES, SUNPRO) és lengyel kiszolgálók
+--- Angol kiszolgáló frissítések (MOVIE25, WATCHSERIES)
+
+[B]1.1.5[/B]
+- Új kiszolgáló (FILMTORNADO)
+- FILMEKMOST kiszolgáló eltávolítva (megszűnt a forrásoldal)
+- Covenant 1.1.21-1.1.23 frissítések:
+--- Extra információk jelennek meg a találatlistában a forrásokról, ha elérhetők (kikapcsolható a beállításokban)
+--- Több információ jelenik meg a folyamatjelző ablakon a források betöltése közben
+--- Átdolgozott találatlista (a debrid linkek más sorrendben jelennek meg, a HD jelzés 720P-re módosult)
+--- Ki lehet választani a prémium (debrid) források színét (változtatható a beállításokban)
+--- Bekerült egy alapértelmezett TMDb API kulcs (a beállításokban módosítható)
+--- Új angol (123HULU, MOVIEGO, MOVIESGOLD, RJSMOVIE), spanyol és görög kiszolgálók
+--- Kiszolgáló frissítések (angol és görög kiszolgálók)
+
+[B]1.1.4[/B]
+- Új kiszolgáló (MOZICLUB)
+- FILMGO kiszolgáló frissítés
+- Covenant 1.1.18-1.1.20 frissítések:
+--- Változtatható a Trakt Előrehaladás rendezésének módja (kiválasztható a beállításokban)
+--- Új angol (TINKLEPAD) és lengyel kiszolgálók
+--- Kiszolgáló frissítések (angol és lengyel kiszolgálók)
+
+[B]1.1.3[/B]
+- Új kiszolgáló (FILMGO)
+- NETMOZI kiszolgáló frissítés
+- MOZICSILLAG kiszolgáló frissítés
+- Covenant Module 1.00.006 frissítések:
+--- Változott a sorozatok rendezése a 'Legújabb epizódok' menüpontban:
+a listában legutóbb megtekintett sorozat epizódja kerül legfelülre (ha engedélyezve van a Trakt)
+--- Új angol (ALLRLS), német (STREAM-TO), spanyol (PEPECINE) kiszolgálók
+--- Angol kiszolgáló frissítések (ALLUC, DIRECTDL, SEZONLUKDIZI)
+
+[B]1.1.2[/B]
+- Hibajavítás
+
+[B]1.1.1[/B]
+- Új kiszolgáló (NONSTOPMOZI)
+- NETMOZI kiszolgáló frissítés
+- ALLUCHU kiszolgáló frissítés
+- Hibajavítás
+- Covenant 1.1.17 frissítések:
+--- Új német (LICHTSPIELHAUS), spanyol (MEGAPELIS, PELICULASDK, PELISPLUSTV) és olasz (ALLUCIT) kiszolgálók
+--- Kiszolgáló frissítések (angol, német, lengyel kiszolgálók)
+
+[B]1.1.0[/B]
+- Új kiszolgáló (HDFILMEK)
+- Covenant 1.1.14-1.1.16 frissítések:
+--- A beállításokban a Legújabb filmek opciónál új választható lista került be: TV-filmek.
+(Ez az opció a legújabb moziban játszódó filmeket és a legújabb TV-filmeket listázza.)
+--- A beállításokban az ALLUC kiszolgálóhoz megadható az eredmények maximáls száma
+--- Új angol (CMOVIES, WATCH5S) és német (KINOKING, MOVIE2K-AC, MOVIE2K-AG, MOVIE2Z, MOVIETOWN) kiszolgálók
+--- Kiszolgáló frissítések (angol, német, lengyel kiszolgálók)
+--- Minden televíziótársaság egyedi logót kapott (Sorozatok >> Televíziótársaságok)
+--- Hibajavítás
+
+[B]1.0.9[/B]
+- NETMOZI kiszolgáló frissítés
+- HEVC kódolású források szűrése (kikapcsolt állapotban nem jelennek meg a HEVC kódolású források - kikapcsolható a beállításokban)
+- CAM minőségű források szűrése (kikapcsolt állapotban nem jelennek meg a CAM minőségű források - kikapcsolható a beállításokban)
+- Covenant 1.1.13 frissítések: Német és lengyel kiszolgáló frissítések
+
+[B]1.0.8[/B]
+- Covenant 1.1.12 frissítések:
+--- Találatlista-frissítés opció lejátszás befejezésekor (endegélyezhető a beállításokban)
+--- Kiszolgáló frissítések (PROJECTFREE, PUBFILMTO, PUTLOCKER, RLSBB, SCENEDOWN, SERIESONLINE, SEZONLUKDIZI)
+--- Új kiszolgálók (IMDARK)
+--- Hibajavítás
+
+[B]1.0.7[/B]
+- Új kiszolgáló (ALLUCHU) - használatához API kulcs szükséges (accounts.alluc.com)
+- MOZICSILLAG kiszolgáló frissítés
+- Covenant 1.1.10 frissítések:
+--- Átdolgozott találati lista
+--- Kiszolgáló frissítések (DAYT, DIZIGOLD, KINGMOVIES, ONSERIES, STREAMFLIX, STREAMLORD, SERIESONLINE)
+--- Új kiszolgálók (ALLUC, GOSTREAM)
+--- A moziban vetített filmek elrejtése a listákról (az utolsó 90 napban megjelent filmek esetén),
+kivéve a következő szekciókban: Trakt/IMDB Listák, Jelenleg a mozikban, Keresés (endegélyezhető a beállításokban)
+--- Hibajavítás
+
+[B]1.0.6[/B]
+- MOOVIECC kiszolgáló eltávolítva
+- Új kiszolgáló (NETMOZI)
+
+[B]1.0.5[/B]
+- FILMEZZ kiszolgáló eltávolítva
+- Új kiszolgáló (SOROZATKATALOGUS)
+- Covenant 1.1.4 frissítések: Kiszolgáló frissítések, Még nem vetített epizódok megjelenítése - kikapcsolható a beállításokban
+
+[B]1.0.4[/B]
+- Új kiszolgáló (FILMEZZ) - használatához regisztráció szükséges.
+- Kiszolgáló frissítés
+
+[B]1.0.3[/B]
+- Covenant 1.1.1 frissítések
+- Webmoovies kiszolgáló frissités
+- Hibajavítás
+
+[B]1.0.2[/B]
+- Találati lista rendszerezése
+
+[B]1.0.1[/B]
+- Angol és Magyar provider-ek az alapértelmezettek
+- Hibajavítások
+
+[B]1.0.0[/B]
+- Kiszolgalo frissitesek
+- Exodus 3.1.22 frissitesek
