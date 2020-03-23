@@ -71,6 +71,7 @@
 		<setting id="provider.orionoid.settings" type="action" label="Beállítások" option="close" action="RunPlugin(plugin://script.module.orion?action=dialogSettings)" subsetting="true" visible="eq(-1,true)" />
 		<setting id="provider.orionoid.info" type="enum" label="Címke" lvalues="Nincs|Összes|Kiszolgáló|Népszerűség|Kor|Népszerűség & Kor" default="1" subsetting="true" visible="eq(-2,true)" />
         <setting label="Magyar" type="lsep"/>
+        <setting id="provider.dmdamedia" type="bool" label="DMDAMEDIA" default="true" />        
         <setting id="provider.filmbaratok" type="bool" label="FILMBARATOK" default="true" />
         <setting id="provider.filmecske" type="bool" label="FILMECSKE" default="true" />
         <setting id="provider.filmezek" type="bool" label="FILMEZEK" default="true" />
