@@ -35,7 +35,6 @@ class source:
                             url_content = client.request(href)
                             matches=re.search(r'^(.*)<meta property="og:description" content="(.*), ([0-9]*) perc, ([1-2][0-9]{3})(.*)"(.*)$', url_content, re.M)
                             if matches != None and year ==  matches.group(4):
-                                self.writelog("movie - href:%s\n" % href)
                                 return href
         return
 
@@ -87,11 +86,6 @@ class source:
             entered_text = keyb.getText()
 
         return entered_text
-
-    def writelog(self, msg):
-        file = open("/home/gavarga/filmvilag2.txt", "a")
-        file.write(msg)
-        file.close()
 
     def getCategoriesUrl(self):
         categories = []
