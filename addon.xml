@@ -1,4 +1,4 @@
-﻿<addon id="plugin.video.exoshark" version="1.4.0" name="ExoShark" provider-name="ExoShark">
+﻿<addon id="plugin.video.exoshark" version="1.5.0" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -33,12 +33,7 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>- Magyar kiszolgáló frissítések
-- NETMOZI kiszolágló eltávolítva
-- Angol kiszolgáló frissítések
-- Cached kiszolgálók (endegélyezhető a beállításokban - Real-Debrid vagy Premiumize fiók szükséges)
-- Jelenleg a mozikban szekció javítva
-- Új szekciók a Filmekben: Legjobbra értékelt, Új lemezes megjelenések
-- Új szekció a Sorozatokban: Legjobbra értékelt
-- Az 'IMDb Infó' információs ablak javítva</news>
+- dmdamedia kiszolágló hozzáadva
+- onlinefilmvilag2 kiszolgáló hozzáadva</news>
 	</extension>
 </addon>

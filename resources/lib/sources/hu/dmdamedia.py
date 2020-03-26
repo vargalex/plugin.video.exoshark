@@ -33,6 +33,33 @@ class source:
                         return url
         return
 
+    def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
+        url_content = client.request(self.base_link)
+        center = client.parseDOM(url_content, 'div', attrs={'class': 'center'})[0].encode('utf-8')
+        movies = center.replace('</div>', '</div>\n')
+        for line in movies.splitlines():
+            matches = re.search(r'^<div class="([^"]*) ([^"]*)"(.*)data-cim="([^"]*)"(.*)href="([^"]*)"(.*)data-src="([^"]*)(.*)$', line.strip())
+            if matches:
+                if tvshowtitle.lower() in line.lower() or localtvshowtitle.lower() in line.lower():                  
+                    url = '%s%s' % (self.base_link, matches.group(6))
+                    url_content = client.request(url)
+                    base = client.parseDOM(url_content, 'div', attrs={'class': 'base'})[0]
+                    stand = client.parseDOM(base, 'div', attrs={'class': 'stand'})[0]
+                    info = client.parseDOM(stand, 'div', attrs={'class': 'info'})[0]
+                    localimdb = client.parseDOM(info, 'a', attrs={'class': 'imdb'}, ret='href')[0]
+                    if imdb in localimdb:
+                        return url
+        return
+
+    def episode(self, url, imdb, tvdb, title, premiered, season, episode):
+        try:
+            if url == None: return
+            url = "%s/%s.evad/%s.resz" % (url, season, episode)
+            return url
+        except:
+            log_utils.log('>>>> %s TRACE <<<<\n%s' % (__file__.upper().split('\\')[-1].split('.')[0], traceback.format_exc()), log_utils.LOGDEBUG)
+            return
+
     def sources(self, url, hostDict, hostprDict):
         try:
             sources = []
@@ -41,9 +68,9 @@ class source:
 
             url_content = client.request(url)
             base = client.parseDOM(url_content, 'div', attrs={'class': 'base'})[0]
-            stand = client.parseDOM(base, 'div', attrs={'class': 'stand'})[0]
-            filmalt = client.parseDOM(stand, 'div', attrs={'class': 'filmalt'})[0]
-            srcs = client.parseDOM(filmalt, 'div', attrs={'class': 'video'})[0].replace('</a>', '</a>\n')
+            #stand = client.parseDOM(base, 'div', attrs={'class': 'stand'})[0]
+            #filmalt = client.parseDOM(stand, 'div', attrs={'class': 'filmalt'})[0]
+            srcs = client.parseDOM(base, 'div', attrs={'class': 'video'})[0].replace('</a>', '</a>\n')
             for source in srcs.splitlines():
                 matches = re.search(r'^<a(.*)href="(.*)">(.*)</a>$', source.strip())
                 if matches:

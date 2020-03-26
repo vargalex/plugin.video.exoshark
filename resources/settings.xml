@@ -80,6 +80,7 @@
         <setting id="provider.filminvazio" type="bool" label="FILMINVAZIO" default="true" />
         <setting id="provider.filmneked" type="bool" label="FILMNEKED" default="true" />
         <setting id="provider.filmtornado" type="bool" label="FILMTORNADO" default="true" />
+        <setting id="provider.filmvilag2" type="bool" label="FILMVILAG2" default="true" />
         <setting id="provider.hdfilmek" type="bool" label="HDFILMEK" default="true" />
         <setting id="provider.mooviecc" type="bool" label="MOOVIECC" default="true" />
         <setting id="provider.movstream" type="bool" label="MOVSTREAM" default="true" />
