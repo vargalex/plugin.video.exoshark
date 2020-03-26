@@ -59,16 +59,9 @@ class source:
             header = client.parseDOM(article, 'h2')[0]
             title = client.parseDOM(header, 'span')[0]
             editorArea = client.parseDOM(article, 'div', attrs={'class': 'editor-area'})[0]
-            paragraphs = client.parseDOM(editorArea, 'p')
-            plot = ''
-            for paragraph in paragraphs:
-                if "<span" in paragraph:
-                    plot = "%s%s%s" % (plot, "" if plot == "" else "\n", client.replaceHTMLCodes(client.parseDOM(paragraph, 'span')[0]))    
-                elif "</" not in paragraph:
-                    plot = "%s%s%s" % (plot, "" if plot == "" else "\n", client.replaceHTMLCodes(paragraph))
-            #plot = plot.replace("&nbsp;", "")
             srcs = client.parseDOM(editorArea, 'iframe', ret='src')
-            for src in srcs:
+            sources2 = client.parseDOM(editorArea, 'a', ret='href')
+            for src in srcs+sources2:
                 host=[x for x in hostDict if x in src][0]
                 sources.append({'source': host, 'quality': 'SD', 'language': 'hu', 'info': '', 'url': src, 'direct': False, 'debridonly': False, 'sourcecap': True})
             return sources
@@ -78,7 +71,10 @@ class source:
 
     def resolve(self, url):
         try:
-            return ("http:%s" % url)
+            if "http" not in url:
+                return ("https:%s" % url)
+            else:
+                return url
         except:
             return
 
