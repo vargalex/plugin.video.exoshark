@@ -140,17 +140,8 @@ class source:
 
     def resolve(self, url):
         try:
-            file = open("/home/gavarga/onlinefilmek.txt", "w")
-            file.write(url)
-            file.close()
             result = client.request(url)
-            file = open("/home/gavarga/onlinefilmek.txt3", "w")
-            file.write(result)
-            file.close()
             js_data = jsunpack.unpack(result)
-            file = open("/home/gavarga/onlinefilmek.txt2", "w")
-            file.write(json.dumps(js_data))
-            file.close()
             urlr = client.parseDOM(result, 'a', ret='href')[-1]
             urlr = urlr.replace('/check.php?r=', '')
             try: urlr = urllib.unquote(urlr)

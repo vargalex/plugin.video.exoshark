@@ -36,12 +36,9 @@ class source:
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
             query = "%s/%s" % (self.base_link, self.search_link) % urllib.quote_plus(localtitle)
-            file = open("/home/gavarga/filminvazio.txt", "a")
             r = client.request(query)
             resultItems = client.parseDOM(r, "div", attrs={"class": "result-item"})
-            file.write(len(resultItems))
             for resultItem in resultItems:
-                file.write("%s\n" % resultItem)
                 #titleDiv = client.parseDOM(resultItem, "div", attrs={'class': 'title'})[0]
                 #href = client.parseDOM(titleDiv, 'a', ret="href")[0]
                 #movieTitle = client.parseDOM(titleDiv, 'a')[0]
@@ -52,7 +49,6 @@ class source:
                 #    if int(year)-1<=int(movieYear)<=int(year)+1:# in years:
                 #        file.close()
                 #        return url
-            file.close()
             return
         except:
             return
