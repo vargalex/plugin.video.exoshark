@@ -1,4 +1,19 @@
-﻿[B]1.4.0[/B]
+﻿[B]1.5.1[/B]
+- netozi kiszolgáló hozzáadva
+- filmezek kiszolgáló frissítve
+- filmezz kiszolgáló frissítve
+- filmbaratok kiszolgáló eltávolítva
+- filmneked kiszolgáló eltávolítva
+- filmtornado kiszolgáló eltávolítva
+- onlinefilmek kiszolgáló eltávolítva
+- sorozatkatalogis kiszolgáló eltávolítva
+- filminvazio kiszolgáló eltávolítva
+
+[B]1.5.0[/B]
+- dmdamedia kiszolgáló hozzáadva
+- onlinefilmvilag2 kiszolgáló hozzáadva
+
+[B]1.4.0[/B]
 - Magyar kiszolgáló frissítések
 - NETMOZI kiszolágló eltávolítva
 - Angol kiszolgáló frissítések

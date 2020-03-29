@@ -72,27 +72,23 @@
 		<setting id="provider.orionoid.info" type="enum" label="Címke" lvalues="Nincs|Összes|Kiszolgáló|Népszerűség|Kor|Népszerűség & Kor" default="1" subsetting="true" visible="eq(-2,true)" />
         <setting label="Magyar" type="lsep"/>
         <setting id="provider.dmdamedia" type="bool" label="DMDAMEDIA" default="true" />        
-        <setting id="provider.filmbaratok" type="bool" label="FILMBARATOK" default="true" />
         <setting id="provider.filmecske" type="bool" label="FILMECSKE" default="true" />
         <setting id="provider.filmezek" type="bool" label="FILMEZEK" default="true" />
         <setting id="provider.filmezz" type="bool" label="FILMEZZ" default="true" />
         <setting id="provider.filmgo" type="bool" label="FILMGO" default="true" />
         <setting id="provider.filminvazio" type="bool" label="FILMINVAZIO" default="true" />
-        <setting id="provider.filmneked" type="bool" label="FILMNEKED" default="true" />
-        <setting id="provider.filmtornado" type="bool" label="FILMTORNADO" default="true" />
         <setting id="provider.filmvilag2" type="bool" label="FILMVILAG2" default="true" />
         <setting id="provider.hdfilmek" type="bool" label="HDFILMEK" default="true" />
         <setting id="provider.mooviecc" type="bool" label="MOOVIECC" default="true" />
         <setting id="provider.movstream" type="bool" label="MOVSTREAM" default="true" />
         <setting id="provider.moziclub" type="bool" label="MOZICLUB" default="true" />
         <setting id="provider.mozicsillag" type="bool" label="MOZICSILLAG" default="true" />
+        <setting id="provider.netmozi" type="bool" label="NETMOZI" default="true" />
         <setting id="provider.nezzsorozatokat" type="bool" label="NEZZSOROZATOKAT" default="true" />
         <setting id="provider.nonstopmozi" type="bool" label="NONSTOPMOZI" default="true" />
         <setting id="provider.onfilmek" type="bool" label="ONFILMEK" default="true" />
-        <setting id="provider.onlinefilmek" type="bool" label="ONLINEFILMEK" default="true" />
         <setting id="provider.onlinepont" type="bool" label="ONLINEPONT" default="true" />
         <setting id="provider.onmoviesfree" type="bool" label="ONMOVIESFREE" default="true" />
-        <setting id="provider.sorozatkatalogus" type="bool" label="SOROZATKATALOGUS" default="true" />
         <setting id="provider.srtv" type="bool" label="SRTV" default="true" />
         <setting id="provider.webmoovies" type="bool" label="WEBMOOVIES" default="true" />
         <setting label="Angol" type="lsep"/>
@@ -279,11 +275,20 @@
         <setting id="filmbaratok.user" type="text" label="32303" default="" />
         <setting id="filmbaratok.pass" type="text" option="hidden" label="32307" default="" />
         <setting type="sep" />
+        <setting type="sep" />
+        <setting type="lsep" label="Filmvilag2.com" />
+        <setting id="filmvilag2.pass" type="text" option="hidden" label="32307" default="" />
+        <setting type="sep" />
         <setting type="lsep" label="FURK (furk.net)" />
         <setting id="furk.user" type="text" label="32303" default="" />
         <setting id="furk.pass" type="text" option="hidden" label="32307" default="" />
         <setting id="furk.api" type="text" label="32309" default="" />
         <setting id="furk.limit" label="32581" type="slider" default="25" range="5,5,200" option="int" />
+        <setting type="sep" />
+        <setting type="sep" />
+        <setting type="lsep" label="Netmozi.com" />
+        <setting id="netmozi.user" type="text" label="32303" default="" />
+        <setting id="netmozi.pass" type="text" option="hidden" label="32307" default="" />
         <setting type="sep" />
         <setting type="lsep" label="Ororo.tv" />
         <setting id="ororo.user" type="text" label="32304" default="" />
