@@ -29,7 +29,7 @@ class source:
         self.priority = 1
         self.language = ['hu']
         self.domains = ['filmezek.com']
-        self.base_link = 'http://filmezek.com'
+        self.base_link = 'https://filmezek.com'
         self.search_link = '/search_cat.php?film=%s&type=1'
         self.host_link = 'https://filmzona.me'
 
@@ -60,7 +60,7 @@ class source:
             query = urlparse.urljoin(self.base_link, self.search_link % urllib.quote_plus(localtitle))
             r = client.request(query)
 
-            result = client.parseDOM(r, 'div', attrs={'class': 'col-lg-2 col-sm-3 col-xs-6'})
+            result = client.parseDOM(r, 'div', attrs={'class': 'col-md-3 col-lg-2 col-sm-3 col-xs-3 moviebox'})
             result = [i for i in result if self.base_link + '/online-filmek/' in i]
             result = [(client.parseDOM(i, 'h5')[0], client.parseDOM(i, 'a', ret='href')[0]) for i in result]
             result = [i[1] for i in result if cleantitle.get(localtitle) == cleantitle.get(i[0].encode('utf-8'))]
@@ -74,7 +74,10 @@ class source:
                 except:
                     pass
 
-            url = re.findall('<a.+?href="([^"]+)"><button type="button"', r)[0]
+            listGroup = client.parseDOM(r, "div", attrs={"class": "list-group"})
+            url = client.parseDOM(listGroup, "a", ret="href")[0]
+
+            #url = re.findall('<a.+?href="([^"]+)"><button type="button"', r)[0]
 
             items = client.request(url)
             items = client.parseDOM(items, 'table', attrs={'class': 'table table-striped'})[0]
