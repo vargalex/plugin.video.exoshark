@@ -93,13 +93,18 @@ class source:
 
             if url == None: return sources
 
-            query = urlparse.urljoin(self.base_link, '/' + url[0]).encode('utf-8')
+            query = urlparse.urljoin(self.base_link, url[0]).encode('utf-8')
 
             r = client.request(query)
             result = client.parseDOM(r, 'div', attrs={'class': 'sidebar-article details'})[0]
             imdb_id = re.findall('imdb"\s*.+?title\/(.+?)\/', result)[0]
             result = [i for i in result if imdb_id == url[2]]
             if len(result) == 0: raise Exception()
+
+            contentBox = client.parseDOM(r, "section", attrs={'class': 'content-box'})[0]
+            href = client.parseDOM(contentBox, 'a', ret="href")[0]
+
+            r = client.request(href)
 
             items = client.parseDOM(r, 'ul', attrs={'class': 'list-unstyled table-horizontal url-list'})[0]
             items = client.parseDOM(items, 'li')
