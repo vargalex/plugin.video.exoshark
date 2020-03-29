@@ -29,15 +29,31 @@ class source:
         self.priority = 1
         self.language = ['hu']
         self.domains = ['filminvazio.net']
-        self.base_link = 'https://filminvazio.net'
-        self.search_link = '/search/%s/feed/rss2/'
+        self.base_link = 'https://ncore.live'
+        self.search_link = '?s=%s'
 
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
-            url = {'imdb': imdb, 'title': title, 'localtitle': localtitle, 'year': year}
-            url = urllib.urlencode(url)
-            return url
+            query = "%s/%s" % (self.base_link, self.search_link) % urllib.quote_plus(localtitle)
+            file = open("/home/gavarga/filminvazio.txt", "a")
+            r = client.request(query)
+            resultItems = client.parseDOM(r, "div", attrs={"class": "result-item"})
+            file.write(len(resultItems))
+            for resultItem in resultItems:
+                file.write("%s\n" % resultItem)
+                #titleDiv = client.parseDOM(resultItem, "div", attrs={'class': 'title'})[0]
+                #href = client.parseDOM(titleDiv, 'a', ret="href")[0]
+                #movieTitle = client.parseDOM(titleDiv, 'a')[0]
+                #meta = client.parseDOM(resultItem, "div", attrs={'class': 'meta'})
+                #movieYear = client.parseDOM(meta, 'span', attrs={'class': 'year'})[0]
+                #file.write("movietitle: %s, movieyear: %s\n" % (movieTitle, movieYear))
+                #if cleantitle.get(localtitle) == cleantitle.get(movieTitle.encode('utf-8')):
+                #    if int(year)-1<=int(movieYear)<=int(year)+1:# in years:
+                #        file.close()
+                #        return url
+            file.close()
+            return
         except:
             return
 
@@ -48,30 +64,11 @@ class source:
 
             if url == None: return sources
 
-            data = urlparse.parse_qs(url)
-            data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
+            r = client.request(url)
 
-            title = data['title']
-            localtitle = data['localtitle']
-            year = data['year']
-
-            query = urlparse.urljoin(self.base_link, self.search_link % urllib.quote_plus(localtitle))
-            r = client.request(query)
-
-            result = client.parseDOM(r, 'item')
-            if len(result) == 0: raise Exception()
-            result = [(client.parseDOM(i, 'title')[0], client.parseDOM(i, 'link')[0]) for i in result]
-            result = [i[1] for i in result if cleantitle.get(localtitle) == cleantitle.get(i[0].encode('utf-8'))]
-            if len(result) == 0: raise Exception()
-
-            for i in result:
-                try:
-                    r = client.request(i)
-                    y = client.parseDOM(r, 'h1')[0]
-                    y = re.findall('(\d{4})', y)[0]
-                    if year == y: break
-                except:
-                    pass
+            linkButtonBox = client.parseDOM(r, "div", attrs={'class':'linkButtonBox'})[0]
+            href = client.parseDOM(linkButtonBox, "a", ret="href")[0]
+            r = client.request(href)
 
             items = client.parseDOM(r, 'div', attrs={'class': 'fix-table'})[0]
             items = client.parseDOM(items, 'tr')

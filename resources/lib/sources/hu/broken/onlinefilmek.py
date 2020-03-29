@@ -23,26 +23,29 @@ from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import log_utils
 
+from resources.lib.modules import jsunpack
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['hu']
         self.domains = ['online-filmek.tv']
-        self.base_link = 'http://online-filmek.tv'
+        self.base_link = 'https://online-filmek.me'
         self.search_link = '/quick.php?q=%s'
 
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
             url = None
-            years = [str(int(year)-1), str(int(year)+1)] 
+            #years = [str(int(year)-1), str(int(year)+1)] 
 
-            t = localtitle.replace(' ', '+')
-
-            query = urlparse.urljoin(self.base_link, self.search_link % t)
+            #t = localtitle.replace(' ', '+')
+            
+            query = urlparse.urljoin(self.base_link, self.search_link % urllib.quote_plus(localtitle))
             r = client.request(query)
-            if not r: raise exception()
+
+            if not r: raise Exception()
+
             result = json.loads(r)
 
             result = [i for i in result if cleantitle.get(i['nev'].encode('utf-8')) == cleantitle.get(localtitle)]
@@ -102,10 +105,12 @@ class source:
             result = [i for i in result if 'megoszto_link' in i]
             url = client.parseDOM(result[0], 'a', ret='href')[0]
             r = client.request(url)
+            matches = re.search(r'(.*)<body>.<a href="(.*)">(.*)', r, re.S)
+            if matches != None:          
+                r = client.request(matches.group(2))
             try: r = r.decode('iso-8859-1').encode('utf-8')
             except: pass
             r = r.replace('\n', '')
-
             result = re.findall('<tr>.+?class="(.+?)".+?div>(.+?)<.+?<b>(.+?)<.+?href="(.+?)"', r)
 
             locDict = [(i.rsplit('.', 1)[0], i) for i in hostDict]
@@ -122,7 +127,7 @@ class source:
                     else: quality = 'SD'
                     info = 'szinkron' if i[0] == 'kep-magyar_szinkron' else ''
                     url = client.replaceHTMLCodes(i[3])
-                    url = url.encode('utf-8')  
+                    url = url.encode('utf-8')
                     sources.append({'source': host, 'quality': quality, 'language': 'hu', 'info': info, 'url': url, 'direct': False, 'debridonly': False})
                 except:
                     pass
@@ -135,7 +140,17 @@ class source:
 
     def resolve(self, url):
         try:
+            file = open("/home/gavarga/onlinefilmek.txt", "w")
+            file.write(url)
+            file.close()
             result = client.request(url)
+            file = open("/home/gavarga/onlinefilmek.txt3", "w")
+            file.write(result)
+            file.close()
+            js_data = jsunpack.unpack(result)
+            file = open("/home/gavarga/onlinefilmek.txt2", "w")
+            file.write(json.dumps(js_data))
+            file.close()
             urlr = client.parseDOM(result, 'a', ret='href')[-1]
             urlr = urlr.replace('/check.php?r=', '')
             try: urlr = urllib.unquote(urlr)
