@@ -73,6 +73,8 @@ class source:
             if url == None: return sources
 
             loginCookie = cache.get(self.getCookie, 24)
+            if loginCookie == None:
+                raise ValueError("Sikertelen bejelentkezés! Hibás felhasználó név/jelszó?")
             url_content = client.request('%s%s' %(self.base_link, url), cookie=loginCookie)
             table = client.parseDOM(url_content, 'table', attrs={'class': 'table table-responsive'})
             if table:
@@ -125,7 +127,8 @@ class source:
 
     def getCookie(self):
         if (self.username and self.password) != '':
-            login_cookies = client.request("%s%s" % (self.base_link, self.login_link), post="username=%s&password=%s" % (self.username, self.password), output='cookie')
-            if 'ca' in login_cookies:
+            login_cookies = client.request("%s%s" % (self.base_link, self.login_link), post="username=%s&password=%s" % (urllib.quote_plus(self.username), urllib.quote_plus(self.password)), output='cookie')
+            if 'ca=' in login_cookies:
                 return login_cookies
+            raise Exception()
         return
