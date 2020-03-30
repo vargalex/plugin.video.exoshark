@@ -1,4 +1,7 @@
-﻿[B]1.5.1[/B]
+﻿[B]1.5.2[B]
+- filminvazio kiszolgáló frissítve
+
+[B]1.5.1[/B]
 - netozi kiszolgáló hozzáadva
 - filmezek kiszolgáló frissítve
 - filmezz kiszolgáló frissítve
