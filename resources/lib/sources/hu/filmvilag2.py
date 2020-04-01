@@ -22,7 +22,7 @@ class source:
         innerFrameDiv = client.parseDOM(searchDiv, 'div', attrs={'class': 'inner_frame'})
         searchURL = client.parseDOM(innerFrameDiv, 'form', ret='action')[0]
         uid = client.parseDOM(innerFrameDiv, 'input', attrs={'id': 'uid'}, ret='value')[0]
-        for sTitle in [title, localtitle]:
+        for sTitle in [localtitle, title]:
             url_content = client.request(searchURL, post="uid=%s&key=%s" % (uid, urllib.quote_plus(sTitle)))
             searchResult = client.parseDOM(url_content, 'div', attrs={'class': 'search-results'})
             resultsUser = client.parseDOM(searchResult, 'div', attrs={'class': 'results-user'})
@@ -35,9 +35,11 @@ class source:
                     if href not in categoriesURL:
                         if "filmkeres-es-hibas-link-jelentese.html" not in href:
                             url_content = client.request(href)
-                            matches=re.search(r'^(.*)<meta property="og:description" content="(.*), ([0-9]*) perc, ([1-2][0-9]{3})(.*)"(.*)$', url_content, re.M)
-                            if matches != None and int(year)-1<=int(matches.group(4))<=int(year)+1:# in years:
-                                return href
+                            matches=re.search(r'^(.*)<meta property="og:title" content="(.*)"(.*)$', url_content, re.M)
+                            if matches != None and cleantitle.get(sTitle) in cleantitle.get(matches.group(2)):
+                                matches=re.search(r'^(.*)<meta property="og:description" content="(.*), ([0-9]*) perc, ([1-2][0-9]{3})(.*)"(.*)$', url_content, re.M)
+                                if matches != None and int(year)-1<=int(matches.group(4))<=int(year)+1:# in years:
+                                    return href
         return
 
     def sources(self, url, hostDict, hostprDict):
