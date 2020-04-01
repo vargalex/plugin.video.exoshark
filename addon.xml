@@ -1,4 +1,4 @@
-﻿<addon id="plugin.video.exoshark" version="1.5.2" name="ExoShark" provider-name="ExoShark">
+﻿<addon id="plugin.video.exoshark" version="1.5.3" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -32,15 +32,7 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Magyar kiszolgáló frissítések
-- netozi kiszolgáló hozzáadva
-- filmezek kiszolgáló frissítve
-- filmezz kiszolgáló frissítve
-- filminvazio kiszolgáló frissítve
-- filmbaratok kiszolgáló eltávolítva
-- filmneked kiszolgáló eltávolítva
-- filmtornado kiszolgáló eltávolítva
-- onlinefilmek kiszolgáló eltávolítva
-- sorozatkatalogis kiszolgáló eltávolítva</news>
+		<news>- client.py visszaállás
+- netmozi.py módosítása a client.py csere miatt</news>
 	</extension>
 </addon>

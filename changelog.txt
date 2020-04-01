@@ -1,4 +1,8 @@
-﻿[B]1.5.2[B]
+﻿[B]1.5.3[/B]
+- client.py visszaállás
+- netmozi.py módosítása a client.py csere miatt
+
+[B]1.5.2[/B]
 - filminvazio kiszolgáló frissítve
 
 [B]1.5.1[/B]

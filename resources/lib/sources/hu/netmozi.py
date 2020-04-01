@@ -81,7 +81,9 @@ class source:
                 hostDict = hostprDict + hostDict
                 rows = client.parseDOM(table, 'tr')
                 for row in rows:
-                    cols = client.parseDOM(row, 'td')
+                    row=row.replace("\r", "").replace("\n", "").replace("</td>", "</td>\n").replace("\t", "")
+                    #cols = client.parseDOM(row, 'td')
+                    cols=re.findall(r'<td>(.*)</td>', row)
                     valid, host = source_utils.is_host_valid(cols[5].encode('utf-8'), hostDict)
                     if not valid: 
                         continue
