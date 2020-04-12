@@ -35,10 +35,10 @@ class source:
                     if href not in categoriesURL:
                         if "filmkeres-es-hibas-link-jelentese.html" not in href:
                             url_content = client.request(href)
-                            matches=re.search(r'^(.*)<meta property="og:title" content="(.*)"(.*)$', url_content, re.M)
-                            if matches != None and cleantitle.get(sTitle) in cleantitle.get(matches.group(2)):
-                                matches=re.search(r'^(.*)<meta property="og:description" content="(.*), ([0-9]*) perc, ([1-2][0-9]{3})(.*)"(.*)$', url_content, re.M)
-                                if matches != None and int(year)-1<=int(matches.group(4))<=int(year)+1:# in years:
+                            matches = re.search(r'^(.*)<meta property="og:description" content="(.*), ([0-9]*) perc, ([1-2][0-9]{3})(.*)"(.*)$', url_content, re.M)
+                            if matches != None and int(year)-1<=int(matches.group(4))<=int(year)+1:# in years:
+                                matches = re.search(r'^(.*)<title>(.*)</title>(.*)', url_content, re.S)
+                                if matches != None and cleantitle.get(sTitle) in cleantitle.get(matches.group(2)):
                                     return href
         return
 
