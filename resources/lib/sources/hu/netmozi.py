@@ -37,7 +37,7 @@ class source:
         self.username = control.setting('netmozi.user')
         self.password = control.setting('netmozi.pass')
 
-    def getURL(self, title, localtitle, year, searchType):
+    def getURL(self, imdb, title, localtitle, year, searchType):
         for sTitle in [title, localtitle]:
             url_content = client.request('%s%s' % (self.base_link, self.search_link) % (searchType, urllib.quote_plus(sTitle)))
             movies = client.parseDOM(url_content, 'div', attrs={'class': 'col-sm-4 col_main'})
@@ -46,16 +46,16 @@ class source:
                 infoDiv = client.parseDOM(movie, 'div', attrs={'class': 'col-sm-6'})[1]
                 infoRows = client.parseDOM(infoDiv, 'div', attrs={'class': 'row'})
                 movieYear = re.sub('<.*>', '', client.replaceHTMLCodes(infoRows[0]).encode('utf-8')).strip()
-                if int(year)-1<=int(movieYear)<=int(year)+1:# in years:
+                if int(year)-1<=int(movieYear)<=int(year)+1 and imdb in infoRows[4]:# in years:
                     return url
         return
 
 
     def movie(self, imdb, title, localtitle, aliases, year):
-        return self.getURL(title, localtitle, year, "1")
+        return self.getURL(imdb, title, localtitle, year, "1")
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
-        return self.getURL(tvshowtitle, localtvshowtitle, year, "2")
+        return self.getURL(imdb, tvshowtitle, localtvshowtitle, year, "2")
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
         try:
