@@ -1,4 +1,8 @@
-﻿[B]1.5.3[/B]
+﻿[B]1.5.4[/B]
+- filmvilag2 kigészítő cím összehasonlítás a téves találatok miatt
+- netmozi kiegészítő IMDB azonosító összehasonlítás a téves találatok miatt
+
+[B]1.5.3[/B]
 - client.py visszaállás
 - netmozi.py módosítása a client.py csere miatt
 
