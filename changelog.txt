@@ -1,4 +1,7 @@
-﻿[B]1.5.4[/B]
+﻿[B]1.5.5[/B]
+- wofvideo kiszolgáló hozzáadva
+
+[B]1.5.4[/B]
 - filmvilag2 kigészítő cím összehasonlítás a téves találatok miatt
 - netmozi kiegészítő IMDB azonosító összehasonlítás a téves találatok miatt
 

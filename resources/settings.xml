@@ -91,6 +91,7 @@
         <setting id="provider.onmoviesfree" type="bool" label="ONMOVIESFREE" default="true" />
         <setting id="provider.srtv" type="bool" label="SRTV" default="true" />
         <setting id="provider.webmoovies" type="bool" label="WEBMOOVIES" default="true" />
+        <setting id="provider.wofvideo" type="bool" label="WOFVIDEO" default="true" />
         <setting label="Angol" type="lsep"/>
         <setting id="provider.2dll" type="bool" label="2DLL" default="true" />
         <setting id="provider.badshahuploads" type="bool" label="BADSHAHUPLOADS" default="true" />
