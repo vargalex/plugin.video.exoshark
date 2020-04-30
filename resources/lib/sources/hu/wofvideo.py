@@ -18,7 +18,7 @@
 '''
 
 
-import re, urllib, urlparse, traceback, json, xbmcgui
+import re, urllib, urlparse, traceback, json
 from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import log_utils
