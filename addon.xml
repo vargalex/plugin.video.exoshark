@@ -1,4 +1,4 @@
-﻿<addon id="plugin.video.exoshark" version="1.5.5" name="ExoShark" provider-name="ExoShark">
+﻿<addon id="plugin.video.exoshark" version="1.5.6" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -32,7 +32,7 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- wofvideo kiszolgáló hozzáadva
+		<news>- netmozi forrás változás követése
 </news>
 	</extension>
 </addon>

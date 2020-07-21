@@ -76,6 +76,10 @@ class source:
             if loginCookie == None:
                 raise ValueError("Sikertelen bejelentkezés! Hibás felhasználó név/jelszó?")
             url_content = client.request('%s%s' %(self.base_link, url), cookie=loginCookie)
+            if "regeljbe.png" in url_content:
+                raise ValueError("Sikertelen bejelentkezés! Hibás felhasználó név/jelszó?")
+            movieURL = 'https:%s' % client.parseDOM(url_content, 'a', attrs={'class': 'details_links_btn'}, ret='href')[0]
+            url_content = client.request(movieURL)
             table = client.parseDOM(url_content, 'table', attrs={'class': 'table table-responsive'})
             if table:
                 hostDict = hostprDict + hostDict
@@ -107,7 +111,8 @@ class source:
                         quality = 'CAM'
                     if 'HD' in cols[4]:
                         quality = 'HD'
-                    src=client.parseDOM(cols[3], 'a', attrs={'class': 'btn btn-outline-primary btn-sm'}, ret='href')[0].encode('utf-8')
+                    mURL = urlparse.urlsplit(movieURL)
+                    src=urlparse.urljoin('%s://%s' %(mURL.scheme, mURL.netloc),client.parseDOM(cols[3], 'a', attrs={'class': 'btn btn-outline-primary btn-sm'}, ret='href')[0].encode('utf-8'))
                     sources.append({'source': host, 'quality': quality, 'language': 'hu', 'info': info, 'url': src, 'direct': False, 'debridonly': False, 'sourcecap': True})
             return sources
         except:
@@ -117,13 +122,10 @@ class source:
 
     def resolve(self, url):
         try:
-            loginCookie = cache.get(self.getCookie, 24)
-            url_content = client.request('%s%s' % (self.base_link, url), cookie=loginCookie)
-            matches = re.search(r'^(.*)var link(.*)= "(.*)";(.*)$', url_content, re.MULTILINE)
-            if matches:
-                url = matches.group(3).decode('base64')
-                return url
-            return
+            log_utils.log("resolving URL: %s" % url, log_utils.LOGNOTICE)
+            final_url = client.request(url, redirect=True, output="geturl")
+            log_utils.log("final_url: %s" % final_url, log_utils.LOGNOTICE)
+            return final_url
         except: 
             return
 

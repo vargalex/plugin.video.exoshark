@@ -1,4 +1,7 @@
-﻿[B]1.5.5[/B]
+﻿[B]1.5.6[/B]
+- Netmozi forrás változás követése
+
+[B]1.5.5[/B]
 - wofvideo kiszolgáló hozzáadva
 
 [B]1.5.4[/B]
