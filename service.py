@@ -40,7 +40,7 @@ try:
     log_utils.log('############ CURRENT EXOSHARK VERSIONS REPORT #################', log_utils.LOGNOTICE)
     log_utils.log('############ EXOSHARK PLUGIN VERSION: %s ###################' % str(AddonVersion), log_utils.LOGNOTICE)
     if not RepoVersion == '0':
-        log_utils.log('############ EXOSHARK REPOSITORY VERSION: %s ###############' % str(RepoVersion), log_utils.LOGNOTICE)
+        log_utils.log('############ MOVIESHARK REPOSITORY VERSION: %s ###############' % str(RepoVersion), log_utils.LOGNOTICE)
     else:
         log_utils.log('############ EXOSHARK REPOSITORY NOT INSTALLED ################', log_utils.LOGNOTICE)
     log_utils.log('###############################################################', log_utils.LOGNOTICE)
