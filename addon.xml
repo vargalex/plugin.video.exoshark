@@ -1,4 +1,5 @@
-﻿<addon id="plugin.video.exoshark" version="1.5.7" name="ExoShark" provider-name="ExoShark">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.exoshark" version="1.5.7" name="ExoShark" provider-name="ExoShark">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exoshark.artwork" version="1.0.0" />
@@ -32,7 +33,7 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- netmozi forrás változás követése
+		<news>- netmozi nem kötelező bejelentkezés
 </news>
 	</extension>
 </addon>
