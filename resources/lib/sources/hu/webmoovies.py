@@ -29,7 +29,7 @@ class source:
         self.priority = 1
         self.language = ['hu']
         self.domains = ['webmoovies.com']
-        self.base_link = 'http://webmoovies.com'
+        self.base_link = 'https://webmoovies.com'
         self.search_link = '/ajax/search.php'
 
 

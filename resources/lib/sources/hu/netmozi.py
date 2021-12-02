@@ -73,8 +73,6 @@ class source:
             if url == None: return sources
 
             loginCookie = cache.get(self.getCookie, 24)
-            if loginCookie == None:
-                raise ValueError("Sikertelen bejelentkezés! Hibás felhasználó név/jelszó?")
             url_content = client.request('%s%s' %(self.base_link, url), cookie=loginCookie)
             if "regeljbe.png" in url_content:
                 raise ValueError("Sikertelen bejelentkezés! Hibás felhasználó név/jelszó?")
